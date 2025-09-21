@@ -1,0 +1,204 @@
+.navbar{
+    height: 60px; 
+    background-color: transparent;
+    box-shadow: 0 7px hsla(0, 0%, 17%, 0.529);
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight:bolder;
+    font-family: Arial, Helvetica;
+    color: rgb(12, 12, 91);
+    
+}
+*{
+    margin: 0; 
+    background-color: rgba(255, 252, 252, 0.597);
+}
+
+.nav-imag{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-image: url('WhatsApp\ Image\ 2025-08-27\ at\ 20.46.11_8d19eefa.jpg');
+    background-size: cover;
+
+}
+.nav-name{
+    color: rgb(3, 3, 88);
+}
+.nav-name:hover{
+     color: rgb(122, 0, 102);
+}
+.nav-name{
+    height: 40px;
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.nav-imag h4{
+    font-weight: 500;
+    font-size: 50px;
+}
+.home{
+    height: 50px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.home-section{
+    height: 700px;
+    border-radius: 15px;
+    box-shadow : 5px 6px 3px rgba(134, 132, 132, 0.815);
+    justify-content:space-evenly;
+    display: flex;
+    align-items: center;
+     display: flex;
+    flex-wrap: auto;
+    flex-shrink: 0;
+    flex: 1 1 auto;
+}
+    
+
+.home-image{
+    height: 500px;
+    width: 600px;
+    background-image: url('WhatsApp\ Image\ 2025-08-29\ at\ 23.29.48_de591e4e.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 3px;
+    box-shadow: 6px 6px 5px 1px rgb(2, 2, 34);        
+    transition-property: width;  
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+
+}
+
+.home-image:hover{
+    box-shadow: 6px 6px 7px 3px rgb(188, 52, 154);
+    border: 5px rgb(9, 9, 91) solid;
+    width: 570px;
+    cursor:  pointer  ;
+}
+.home-text{
+    padding: 60px;
+    margin-top: 70px;
+    height: 500px;
+    width:600px;
+
+    
+}
+.home-text h1{
+    animation: typing 3s step-start(15) step-start ;
+    color: rgba(17, 17, 168, 0.605);
+}
+.home-text p{
+    font-size: 25px;
+    animation: typing ;
+    margin-inline: auto;
+    overflow: hidden;
+    white-space: wrap;
+    border-right: 1px solid;
+    
+}
+ 
+
+ 
+
+.home-text h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 2px rgb(37, 35, 35) rgb(35, 52, 35) rgb(49, 49, 108);   
+}
+.home-text h2{
+    font-size: 35px;
+}
+.home-text button{
+    height: 50px;
+    margin-top: 150px;
+    margin-left: 30px;
+    width: 180px;
+    padding: 10px;
+    background-color: rgb(3, 3, 84);
+    color: white;
+    margin-top: 30px;
+    border-radius: 21px;
+    justify-content: center;
+    margin-top: 25px;
+    box-shadow: 2px 4px rgb(133, 91, 231);
+    transform: scale(1.4rem);
+
+}
+.button:hover{
+    background-color: rgb(193, 98, 209);
+    box-shadow: 5px 6px 7px rgb(130, 12, 108);
+    border: 3px rgb(4, 4, 71) solid;
+    height: 55px;
+    width: 185px;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+.about{
+    margin-top: 20px;  
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 19px;
+    background-color:rgb(255, 255, 255);
+    justify-content: center;    
+    place-items: center;
+    
+}
+.color{
+  width: 100px;
+  height: 50px;
+  cursor:pointer;
+  
+   
+  border-radius: 20px;
+  background-color: azure;
+
+}
+
+    
+.h1{         margin-top: 50px;
+             width: fit-content;
+             height: fit-content;
+             font-size: large;
+             font-weight: 700;
+             font-size: 27px;
+            }
+.about-iamge{
+    height: 280px;
+    width: 270px;
+    background-image: url('Snapchat-357037646.jpg');
+    background-size:cover ;
+    border: 2px rgb(71, 5, 128);
+    border-radius:  50%;
+    box-shadow: 6px 6px 6px  rgba(255, 255, 255, 0.897);
+}
+.nav-action{
+    margin-left: 500px;
+    justify-content: space-between;
+}
+.hello h1{
+    color: rgb(10, 10, 92);
+}
+.nav-action{
+    justify-content: space-evenly;
+}
+.about-text{
+    justify-content: flex-start;
+}
+.about-i{
+    background-image:url('OIP.jpeg');
+     background-size: cover;
+     height: 500px;
+     width: 500px;
+     display: flex;
+     justify-content: flex-start;
+     border: 3px transparent solid;
+     border-radius: 30px;
+    
+}
